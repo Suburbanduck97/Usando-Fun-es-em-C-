@@ -3,10 +3,10 @@
 
 void maiorOuMenor(int numero){
 	if(numero > 10){
-		printf("\nRESPOSTA: %d É MAIOR QUE 10", numero);
+		printf("\nRESPOSTA: %d Ã‰ MAIOR QUE 10", numero);
 	}else if(numero == 10){
-		printf("\nRESPOSTA: %d É IGUAL A 10", numero);
-	}else{ printf("\nRESPOSTA: %d É MENOR QUE 10", numero);
+		printf("\nRESPOSTA: %d Ã‰ IGUAL A 10", numero);
+	}else{ printf("\nRESPOSTA: %d Ã‰ MENOR QUE 10", numero);
 	}
 }
 
@@ -19,7 +19,7 @@ int main() {
 	system("cls || clear");
 	
 	puts("=== EXIBINDO DADOS ===");
-	printf("\nNÚMERO SELECIONADO: %d", numero);
+	printf("\nNÃšMERO SELECIONADO: %d", numero);
 	maiorOuMenor(numero);
 	
 	return 0;
